@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PushDemo/PushDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomSearchViewController/CustomSearchViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lex/Lex.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MacCommandLineTool/MacCommandLineTool.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Libffi/Libffi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LabelTapAttri/LabelTapAttri.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimpleTimePicker/SimpleTimePicker.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIAlertShow/UIAlertShow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableView_Group/TableView_Group.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutomaticTableViewCellHeight/AutomaticTableViewCellHeight.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CollectionViewMenu/CollectionViewMenu.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AVAssetDemo/AVAssetDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreData/CoreData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ForceRotation/ForceRotation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Programmer&apos;s_self-cultivation/Programmer&apos;s_self-cultivation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimpleSectionObjectFile/SimpleSectionObjectFile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Prepressing2Compilation2Assembly2Linking/Prepressing2Compilation2Assembly2Linking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PlusMinusInputEditor/PlusMinusInputEditor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MessageForwardingWithRunTime/MessageForwardingWithRunTime.xcodeproj">
+   </FileRef>
+</Workspace>

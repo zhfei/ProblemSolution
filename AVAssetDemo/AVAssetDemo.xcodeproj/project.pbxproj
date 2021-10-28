@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CF3857C9DBDBCCB6A6C91D /* libPods-AVAssetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */; };
+		9100773B2515C9AE00768441 /* AVPlayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */; };
+		9100773C2515C9AE00768441 /* AVPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */; };
+		9100773F25161CE400768441 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9100773E25161CE400768441 /* AVPlayerManager.m */; };
+		910205BE251D95F900A25D7A /* SVShootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910205BC251D95F900A25D7A /* SVShootViewController.m */; };
+		910205BF251D95F900A25D7A /* SVShootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910205BD251D95F900A25D7A /* SVShootViewController.xib */; };
+		910205C3251D963600A25D7A /* SVVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910205C1251D963600A25D7A /* SVVideoEditViewController.m */; };
+		910205C4251D963600A25D7A /* SVVideoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910205C2251D963600A25D7A /* SVVideoEditViewController.xib */; };
+		910205C8251D964E00A25D7A /* SVPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910205C6251D964E00A25D7A /* SVPhotoEditViewController.m */; };
+		910205C9251D964E00A25D7A /* SVPhotoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910205C7251D964E00A25D7A /* SVPhotoEditViewController.xib */; };
+		9128A00825241E8900804C16 /* SVProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9128A00725241E8900804C16 /* SVProgress.m */; };
+		917628C22511A76000CD5E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628C12511A76000CD5E75 /* AppDelegate.m */; };
+		917628C52511A76000CD5E75 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628C42511A76000CD5E75 /* SceneDelegate.m */; };
+		917628C82511A76000CD5E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628C72511A76000CD5E75 /* ViewController.m */; };
+		917628CB2511A76000CD5E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917628C92511A76000CD5E75 /* Main.storyboard */; };
+		917628CD2511A76100CD5E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917628CC2511A76100CD5E75 /* Assets.xcassets */; };
+		917628D02511A76100CD5E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917628CE2511A76100CD5E75 /* LaunchScreen.storyboard */; };
+		917628D32511A76100CD5E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628D22511A76100CD5E75 /* main.m */; };
+		917628DD2511B51600CD5E75 /* top.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 917628DC2511B51600CD5E75 /* top.mp4 */; };
+		917628E02511F57800CD5E75 /* AVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628DF2511F57800CD5E75 /* AVPlayerController.m */; };
+		917628EE2513215600CD5E75 /* AVPlayerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628EC2513215600CD5E75 /* AVPlayerCollectionViewController.m */; };
+		91AB49AB2513A41A00FF58EB /* AVPlayerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		910077382515C9AE00768441 /* AVPlayerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerCollectionViewCell.h; sourceTree = "<group>"; };
+		910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCollectionViewCell.m; sourceTree = "<group>"; };
+		9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
+		9100773D25161CE400768441 /* AVPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		9100773E25161CE400768441 /* AVPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		910205BB251D95F800A25D7A /* SVShootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVShootViewController.h; sourceTree = "<group>"; };
+		910205BC251D95F900A25D7A /* SVShootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVShootViewController.m; sourceTree = "<group>"; };
+		910205BD251D95F900A25D7A /* SVShootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SVShootViewController.xib; sourceTree = "<group>"; };
+		910205C0251D963600A25D7A /* SVVideoEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVVideoEditViewController.h; sourceTree = "<group>"; };
+		910205C1251D963600A25D7A /* SVVideoEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVVideoEditViewController.m; sourceTree = "<group>"; };
+		910205C2251D963600A25D7A /* SVVideoEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SVVideoEditViewController.xib; sourceTree = "<group>"; };
+		910205C5251D964E00A25D7A /* SVPhotoEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVPhotoEditViewController.h; sourceTree = "<group>"; };
+		910205C6251D964E00A25D7A /* SVPhotoEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVPhotoEditViewController.m; sourceTree = "<group>"; };
+		910205C7251D964E00A25D7A /* SVPhotoEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SVPhotoEditViewController.xib; sourceTree = "<group>"; };
+		9128A00625241E8900804C16 /* SVProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVProgress.h; sourceTree = "<group>"; };
+		9128A00725241E8900804C16 /* SVProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgress.m; sourceTree = "<group>"; };
+		917628BD2511A76000CD5E75 /* AVAssetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAssetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917628C02511A76000CD5E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		917628C12511A76000CD5E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		917628C32511A76000CD5E75 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		917628C42511A76000CD5E75 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		917628C62511A76000CD5E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		917628C72511A76000CD5E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		917628CA2511A76000CD5E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		917628CC2511A76100CD5E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		917628CF2511A76100CD5E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		917628D12511A76100CD5E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917628D22511A76100CD5E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		917628DC2511B51600CD5E75 /* top.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = top.mp4; sourceTree = "<group>"; };
+		917628DE2511F57800CD5E75 /* AVPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerController.h; sourceTree = "<group>"; };
+		917628DF2511F57800CD5E75 /* AVPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerController.m; sourceTree = "<group>"; };
+		917628EB2513215600CD5E75 /* AVPlayerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerCollectionViewController.h; sourceTree = "<group>"; };
+		917628EC2513215600CD5E75 /* AVPlayerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCollectionViewController.m; sourceTree = "<group>"; };
+		91AB49A92513A41A00FF58EB /* AVPlayerWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerWindow.h; sourceTree = "<group>"; };
+		91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerWindow.m; sourceTree = "<group>"; };
+		9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.debug.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.release.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVAssetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917628BA2511A76000CD5E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CF3857C9DBDBCCB6A6C91D /* libPods-AVAssetDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81881392807E2273512AE85A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */,
+				BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		910205BA251D95CA00A25D7A /* SmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				9128A00525241B6900804C16 /* Progress */,
+				910205BB251D95F800A25D7A /* SVShootViewController.h */,
+				910205BC251D95F900A25D7A /* SVShootViewController.m */,
+				910205BD251D95F900A25D7A /* SVShootViewController.xib */,
+				910205C0251D963600A25D7A /* SVVideoEditViewController.h */,
+				910205C1251D963600A25D7A /* SVVideoEditViewController.m */,
+				910205C2251D963600A25D7A /* SVVideoEditViewController.xib */,
+				910205C5251D964E00A25D7A /* SVPhotoEditViewController.h */,
+				910205C6251D964E00A25D7A /* SVPhotoEditViewController.m */,
+				910205C7251D964E00A25D7A /* SVPhotoEditViewController.xib */,
+			);
+			path = SmallVideo;
+			sourceTree = "<group>";
+		};
+		9128A00525241B6900804C16 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				9128A00625241E8900804C16 /* SVProgress.h */,
+				9128A00725241E8900804C16 /* SVProgress.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		917628B42511A76000CD5E75 = {
+			isa = PBXGroup;
+			children = (
+				917628BF2511A76000CD5E75 /* AVAssetDemo */,
+				917628BE2511A76000CD5E75 /* Products */,
+				81881392807E2273512AE85A /* Pods */,
+				E6376E751AB2ED1C0BE6962A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		917628BE2511A76000CD5E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917628BD2511A76000CD5E75 /* AVAssetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917628BF2511A76000CD5E75 /* AVAssetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				910205BA251D95CA00A25D7A /* SmallVideo */,
+				917628EA2513213900CD5E75 /* AVPlayerCollectionViewController */,
+				917628DB2511B51600CD5E75 /* resources */,
+				917628C02511A76000CD5E75 /* AppDelegate.h */,
+				917628C12511A76000CD5E75 /* AppDelegate.m */,
+				917628C32511A76000CD5E75 /* SceneDelegate.h */,
+				917628C42511A76000CD5E75 /* SceneDelegate.m */,
+				917628C62511A76000CD5E75 /* ViewController.h */,
+				917628C72511A76000CD5E75 /* ViewController.m */,
+				917628DE2511F57800CD5E75 /* AVPlayerController.h */,
+				917628DF2511F57800CD5E75 /* AVPlayerController.m */,
+				917628C92511A76000CD5E75 /* Main.storyboard */,
+				917628CC2511A76100CD5E75 /* Assets.xcassets */,
+				917628CE2511A76100CD5E75 /* LaunchScreen.storyboard */,
+				917628D12511A76100CD5E75 /* Info.plist */,
+				917628D22511A76100CD5E75 /* main.m */,
+			);
+			path = AVAssetDemo;
+			sourceTree = "<group>";
+		};
+		917628DB2511B51600CD5E75 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				917628DC2511B51600CD5E75 /* top.mp4 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		917628EA2513213900CD5E75 /* AVPlayerCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				917628EB2513215600CD5E75 /* AVPlayerCollectionViewController.h */,
+				917628EC2513215600CD5E75 /* AVPlayerCollectionViewController.m */,
+				910077382515C9AE00768441 /* AVPlayerCollectionViewCell.h */,
+				910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */,
+				9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */,
+				91AB49A92513A41A00FF58EB /* AVPlayerWindow.h */,
+				91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */,
+				9100773D25161CE400768441 /* AVPlayerManager.h */,
+				9100773E25161CE400768441 /* AVPlayerManager.m */,
+			);
+			path = AVPlayerCollectionViewController;
+			sourceTree = "<group>";
+		};
+		E6376E751AB2ED1C0BE6962A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917628BC2511A76000CD5E75 /* AVAssetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917628D62511A76100CD5E75 /* Build configuration list for PBXNativeTarget "AVAssetDemo" */;
+			buildPhases = (
+				DDFA7778D0B6F104B35E73C4 /* [CP] Check Pods Manifest.lock */,
+				917628B92511A76000CD5E75 /* Sources */,
+				917628BA2511A76000CD5E75 /* Frameworks */,
+				917628BB2511A76000CD5E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAssetDemo;
+			productName = AVAssetDemo;
+			productReference = 917628BD2511A76000CD5E75 /* AVAssetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917628B52511A76000CD5E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = zhf;
+				TargetAttributes = {
+					917628BC2511A76000CD5E75 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 917628B82511A76000CD5E75 /* Build configuration list for PBXProject "AVAssetDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 917628B42511A76000CD5E75;
+			productRefGroup = 917628BE2511A76000CD5E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917628BC2511A76000CD5E75 /* AVAssetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917628BB2511A76000CD5E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910205C4251D963600A25D7A /* SVVideoEditViewController.xib in Resources */,
+				917628D02511A76100CD5E75 /* LaunchScreen.storyboard in Resources */,
+				9100773C2515C9AE00768441 /* AVPlayerCollectionViewCell.xib in Resources */,
+				917628DD2511B51600CD5E75 /* top.mp4 in Resources */,
+				910205BF251D95F900A25D7A /* SVShootViewController.xib in Resources */,
+				917628CD2511A76100CD5E75 /* Assets.xcassets in Resources */,
+				910205C9251D964E00A25D7A /* SVPhotoEditViewController.xib in Resources */,
+				917628CB2511A76000CD5E75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDFA7778D0B6F104B35E73C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVAssetDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917628B92511A76000CD5E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9100773F25161CE400768441 /* AVPlayerManager.m in Sources */,
+				917628EE2513215600CD5E75 /* AVPlayerCollectionViewController.m in Sources */,
+				910205C8251D964E00A25D7A /* SVPhotoEditViewController.m in Sources */,
+				917628C82511A76000CD5E75 /* ViewController.m in Sources */,
+				917628E02511F57800CD5E75 /* AVPlayerController.m in Sources */,
+				917628C22511A76000CD5E75 /* AppDelegate.m in Sources */,
+				910205BE251D95F900A25D7A /* SVShootViewController.m in Sources */,
+				910205C3251D963600A25D7A /* SVVideoEditViewController.m in Sources */,
+				917628D32511A76100CD5E75 /* main.m in Sources */,
+				9100773B2515C9AE00768441 /* AVPlayerCollectionViewCell.m in Sources */,
+				917628C52511A76000CD5E75 /* SceneDelegate.m in Sources */,
+				9128A00825241E8900804C16 /* SVProgress.m in Sources */,
+				91AB49AB2513A41A00FF58EB /* AVPlayerWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		917628C92511A76000CD5E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917628CA2511A76000CD5E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		917628CE2511A76100CD5E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917628CF2511A76100CD5E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		917628D42511A76100CD5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		917628D52511A76100CD5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		917628D72511A76100CD5E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UNH8293N;
+				INFOPLIST_FILE = AVAssetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xkc.MyTestWorkProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		917628D82511A76100CD5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UNH8293N;
+				INFOPLIST_FILE = AVAssetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xkc.MyTestWorkProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917628B82511A76000CD5E75 /* Build configuration list for PBXProject "AVAssetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917628D42511A76100CD5E75 /* Debug */,
+				917628D52511A76100CD5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917628D62511A76100CD5E75 /* Build configuration list for PBXNativeTarget "AVAssetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917628D72511A76100CD5E75 /* Debug */,
+				917628D82511A76100CD5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917628B52511A76000CD5E75 /* Project object */;
+}

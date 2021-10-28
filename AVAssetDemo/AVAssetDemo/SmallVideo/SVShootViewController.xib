@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SVShootViewController">
+            <connections>
+                <outlet property="cursorCenterX" destination="AX7-do-44Z" id="FFX-Py-rmQ"/>
+                <outlet property="cursorCenterY" destination="mHj-uW-ybr" id="i6y-bK-k8k"/>
+                <outlet property="focusCursor" destination="RaB-Wf-fI5" id="Oa5-Pd-3bm"/>
+                <outlet property="goBackBtn" destination="8tq-qv-EPM" id="t9i-Mc-Db6"/>
+                <outlet property="shootHit" destination="tN0-uB-AHY" id="eRk-Vn-ykF"/>
+                <outlet property="svProgress" destination="bqT-CH-IeO" id="uht-zl-343"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="轻触拍照，按住摄像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN0-uB-AHY">
+                    <rect key="frame" x="123" y="505" width="129" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tq-qv-EPM">
+                    <rect key="frame" x="66.5" y="617" width="31" height="30"/>
+                    <state key="normal" title="退出"/>
+                    <connections>
+                        <action selector="goBackAction:" destination="-1" eventType="touchUpInside" id="IXl-96-yuy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q99-3n-dq1">
+                    <rect key="frame" x="258" y="60" width="77" height="30"/>
+                    <state key="normal" title="摄像头翻转"/>
+                    <connections>
+                        <action selector="switchCaptureDevice:" destination="-1" eventType="touchUpInside" id="aDW-Sf-VeY"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cursor.rays" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RaB-Wf-fI5">
+                    <rect key="frame" x="157.5" y="305.5" width="60" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="4sT-Js-J25"/>
+                        <constraint firstAttribute="height" constant="60" id="f4I-qr-aAR"/>
+                    </constraints>
+                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="small" weight="light">
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                    </preferredSymbolConfiguration>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqT-CH-IeO" customClass="SVProgress">
+                    <rect key="frame" x="137.5" y="547" width="100" height="100"/>
+                    <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="SYJ-2n-Y9k"/>
+                        <constraint firstAttribute="height" constant="100" id="ZJE-Te-DxK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Q99-3n-dq1" secondAttribute="trailing" constant="40" id="6md-2h-TNG"/>
+                <constraint firstItem="RaB-Wf-fI5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AX7-do-44Z"/>
+                <constraint firstItem="bqT-CH-IeO" firstAttribute="leading" secondItem="8tq-qv-EPM" secondAttribute="trailing" constant="40" id="BTu-9I-oev"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="bqT-CH-IeO" secondAttribute="bottom" constant="20" id="TLc-59-GJt"/>
+                <constraint firstItem="bqT-CH-IeO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dOB-te-9q4"/>
+                <constraint firstItem="Q99-3n-dq1" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="60" id="ksL-QU-6SE"/>
+                <constraint firstItem="RaB-Wf-fI5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mHj-uW-ybr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="tN0-uB-AHY" secondAttribute="bottom" constant="145" id="vOo-CW-fnU"/>
+                <constraint firstItem="tN0-uB-AHY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xHs-Pv-djA"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="8tq-qv-EPM" secondAttribute="bottom" constant="20" id="xM1-4E-bfA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="153.37331334332833"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cursor.rays" catalog="system" width="128" height="119"/>
+    </resources>
+</document>

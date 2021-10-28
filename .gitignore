@@ -1,0 +1,13 @@
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcworkspace/xcuserdata
+Pods/Pods.xcodeproj/xcuserdata
+Pods/Pods.xcodeproj/project.xcworkspace
+libmeeting.a
+.idea
+libRTConfClientLibary.a
+libTBConfSDK.a
+pods/
+Podfile.lock
+IDEWorkspaceChecks.plist
+.wybin

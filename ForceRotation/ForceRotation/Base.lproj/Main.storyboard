@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Insert Core Data View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="InsertCoreDataViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKz-KR-RKs">
+                                <rect key="frame" x="238.5" y="210" width="123" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="设置成左横屏"/>
+                                <connections>
+                                    <action selector="leftSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ydK-qb-Hod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4i-UI-6KH">
+                                <rect key="frame" x="238.5" y="282" width="123" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="设置成右横屏"/>
+                                <connections>
+                                    <action selector="rightSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zck-ek-SXe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1f4-py-nnj">
+                                <rect key="frame" x="249" y="347" width="102" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="设置成竖屏"/>
+                                <connections>
+                                    <action selector="portraitSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fE-63-v0w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1f4-py-nnj" firstAttribute="top" secondItem="p4i-UI-6KH" secondAttribute="bottom" constant="29" id="Iy8-Tx-IgO"/>
+                            <constraint firstItem="p4i-UI-6KH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QFy-h8-lIa"/>
+                            <constraint firstItem="FKz-KR-RKs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T2H-4H-qtM"/>
+                            <constraint firstItem="1f4-py-nnj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U8O-sT-pp6"/>
+                            <constraint firstItem="p4i-UI-6KH" firstAttribute="top" secondItem="FKz-KR-RKs" secondAttribute="bottom" constant="36" id="sN2-UA-2qU"/>
+                            <constraint firstItem="p4i-UI-6KH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sU8-Wk-8CH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="116"/>
+        </scene>
+    </scenes>
+</document>
