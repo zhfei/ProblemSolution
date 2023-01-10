@@ -1,0 +1,16 @@
+//
+//  Configs.PlusMinusInputEditor.debug.xcconfig
+//  PlusMinusInputEditor
+//
+//  Created by zhoufei on 2022/10/9.
+//  Copyright © 2022 zhf. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+// key - value键值对
+// other linker flags
+OTHER_LDFLAGS = -framework "AFNetworking"
+HOST_URL = "http://127.0.0.1"

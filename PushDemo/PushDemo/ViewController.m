@@ -10,6 +10,7 @@
 
 @interface ViewController () <UNUserNotificationCenterDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *midBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -18,8 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
     
     [self setButtonMiddle:self.midBtn];
+    
+    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(jsq_handleLongPressGesture:)];
+    longPress.allowableMovement = 40;
+    [self.imageView addGestureRecognizer:longPress];
 }
 
 
@@ -52,6 +58,10 @@
     
     
 
+    UIImage *image = [[UIImage imageNamed:@"icon_1_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    self.imageView.tintColor = [UIColor redColor];
+    self.imageView.contentMode = UIViewContentModeCenter;
+    self.imageView.image = image;
 }
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
@@ -94,6 +104,19 @@
     // 4. 赋值
     btn.titleEdgeInsets = labelEdgeInsets;
     btn.imageEdgeInsets = imageEdgeInsets;
+}
+
+- (void)jsq_handleLongPressGesture:(UILongPressGestureRecognizer *)longPress
+{
+    if (longPress.state == UIGestureRecognizerStateEnded) {
+        NSLog(@"Ended ---   Ended",longPress);
+    } else if (longPress.state == UIGestureRecognizerStateBegan) {
+        NSLog(@"Began ---   Began",longPress);
+    } else {
+        NSLog(@"longPress:%@",longPress);
+    }
+    CGPoint touchPt = [longPress locationInView:self.view];
+    
 }
 
 @end

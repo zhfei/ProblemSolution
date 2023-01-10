@@ -16,6 +16,7 @@
 		912A38592684B6870083A110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 912A38582684B6870083A110 /* main.m */; };
 		912A386D2684BBF70083A110 /* SimpleTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912A386B2684BBF70083A110 /* SimpleTimePickerViewController.m */; };
 		912A386E2684BBF70083A110 /* SimpleTimePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912A386C2684BBF70083A110 /* SimpleTimePickerViewController.xib */; };
+		91BA756E28D47A7F00996165 /* ShareObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BA756D28D47A7F00996165 /* ShareObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		912A386A2684BBF70083A110 /* SimpleTimePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTimePickerViewController.h; sourceTree = "<group>"; };
 		912A386B2684BBF70083A110 /* SimpleTimePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTimePickerViewController.m; sourceTree = "<group>"; };
 		912A386C2684BBF70083A110 /* SimpleTimePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTimePickerViewController.xib; sourceTree = "<group>"; };
+		91BA756C28D47A7F00996165 /* ShareObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareObj.h; sourceTree = "<group>"; };
+		91BA756D28D47A7F00996165 /* ShareObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		912A38452684B6850083A110 /* SimpleTimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				91BA756B28D47A3F00996165 /* SharedObj */,
 				912A38602684B8A10083A110 /* Picker */,
 				912A38462684B6850083A110 /* AppDelegate.h */,
 				912A38472684B6850083A110 /* AppDelegate.m */,
@@ -90,6 +94,15 @@
 				912A386C2684BBF70083A110 /* SimpleTimePickerViewController.xib */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		91BA756B28D47A3F00996165 /* SharedObj */ = {
+			isa = PBXGroup;
+			children = (
+				91BA756C28D47A7F00996165 /* ShareObj.h */,
+				91BA756D28D47A7F00996165 /* ShareObj.m */,
+			);
+			path = SharedObj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +178,7 @@
 				912A384E2684B6850083A110 /* ViewController.m in Sources */,
 				912A38482684B6850083A110 /* AppDelegate.m in Sources */,
 				912A386D2684BBF70083A110 /* SimpleTimePickerViewController.m in Sources */,
+				91BA756E28D47A7F00996165 /* ShareObj.m in Sources */,
 				912A38592684B6870083A110 /* main.m in Sources */,
 				912A384B2684B6850083A110 /* SceneDelegate.m in Sources */,
 			);

@@ -2,6 +2,36 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AppDemo/AppDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MachOAPP/MachOAPP.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:JSCoreDemo/JSCoreDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HotReload/HotReload.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestFramework/TestFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MemoryManage/MemoryManage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:runtime/runtime.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:funcParameters/funcParameters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SearchField/SearchField.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LLVM/LLVM.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PushDemo/PushDemo.xcodeproj">
    </FileRef>
    <FileRef

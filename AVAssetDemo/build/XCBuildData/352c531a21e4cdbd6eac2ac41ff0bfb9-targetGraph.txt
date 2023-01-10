@@ -1,0 +1,32 @@
+Target dependency graph (30 targets)
+AVAssetDemo in AVAssetDemo, no dependencies
+AppDemo in AppDemo, no dependencies
+AutomaticTableViewCellHeight in AutomaticTableViewCellHeight, no dependencies
+CollectionViewMenu in CollectionViewMenu, no dependencies
+CoreData in CoreData, no dependencies
+CustomSearchViewController in CustomSearchViewController, no dependencies
+ForceRotation in ForceRotation, no dependencies
+HotReload in HotReload, no dependencies
+JSCoreDemo in JSCoreDemo, no dependencies
+LLVM in LLVM, no dependencies
+LabelTapAttri in LabelTapAttri, no dependencies
+Lex in Lex, no dependencies
+Libffi in Libffi, no dependencies
+MacCommandLineTool in MacCommandLineTool, no dependencies
+MachOAPP in MachOAPP, no dependencies
+MemoryManage in MemoryManage, no dependencies
+MessageForwardingWithRunTime in MessageForwardingWithRunTime, no dependencies
+PlusMinusInputEditor in PlusMinusInputEditor, no dependencies
+PlusMinusInputEditor copy in PlusMinusInputEditor, no dependencies
+Prepressing2Compilation2Assembly2Linking in Prepressing2Compilation2Assembly2Linking, no dependencies
+Programmer's_self-cultivation in Programmer's_self-cultivation, no dependencies
+PushDemo in PushDemo, no dependencies
+SearchField in SearchField, no dependencies
+SimpleSectionObjectFile in SimpleSectionObjectFile, no dependencies
+SimpleTimePicker in SimpleTimePicker, no dependencies
+TableView_Group in TableView_Group, no dependencies
+TestFramework in TestFramework, no dependencies
+UIAlertShow in UIAlertShow, no dependencies
+funcParameters in funcParameters, no dependencies
+runtime in runtime, depends on:
+TestFramework in TestFramework (implicit dependency via file 'TestFramework.framework' in build phase 'Link Binary')

@@ -1,0 +1,6 @@
+
+#include "MachOAPP/Config/Config.MachOApp.common.xcconfig"
+
+HOST_URL = "http://www.baidu.com"
+
+

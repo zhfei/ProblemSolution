@@ -1,0 +1,20 @@
+// #include导入
+#include "MachOAPP/Config/Config.MachOApp.common.xcconfig"
+
+MACH_PATH=${BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+
+CMD_FLAG= -pa ${MACH_PATH}
+TTY=/dev/ttys001
+
+A=/
+
+// 使用//会被解析成注释，所以需要用${A}进行区别
+// ${}, $()这2种都可以包裹引用变量
+HOST_URL=http:${A}/127.0.0.1
+
+// $(inherited) 继承
+// 导入文件和当前文件拥有同一个OTHER_LDFLAGS时，后面的会覆盖前面的。
+// 可以使用$(inherited)方式进行继承得前面的。
+// [config=Debug]可以为配置添加条件
+OTHER_LDFLAGS[config=Debug][arch=x86_64]=$(inherited) -framework "AFNetworking"
+

@@ -16,6 +16,17 @@
 		9121DD752486281B00F64768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD672486281B00F64768 /* AppDelegate.m */; };
 		9121DD762486281B00F64768 /* PlusMinusInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD692486281B00F64768 /* PlusMinusInputView.m */; };
 		9121DD772486281B00F64768 /* PlusMinusInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9121DD6A2486281B00F64768 /* PlusMinusInputView.xib */; };
+		91854A6528F2A16B00BF73AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD672486281B00F64768 /* AppDelegate.m */; };
+		91854A6628F2A16B00BF73AE /* InsertCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD602486281B00F64768 /* InsertCoreDataViewController.m */; };
+		91854A6728F2A16B00BF73AE /* PlusMinusInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD692486281B00F64768 /* PlusMinusInputView.m */; };
+		91854A6828F2A16B00BF73AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD662486281B00F64768 /* main.m */; };
+		91854A6928F2A16B00BF73AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121DD612486281B00F64768 /* SceneDelegate.m */; };
+		91854A6C28F2A16B00BF73AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9121DD642486281B00F64768 /* Main.storyboard */; };
+		91854A6D28F2A16B00BF73AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9121DD5F2486281B00F64768 /* Assets.xcassets */; };
+		91854A6E28F2A16B00BF73AE /* PlusMinusInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9121DD6A2486281B00F64768 /* PlusMinusInputView.xib */; };
+		91854A6F28F2A16B00BF73AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9121DD622486281B00F64768 /* LaunchScreen.storyboard */; };
+		91854A7C28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91854A7B28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig */; };
+		91854A7E28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91854A7D28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +45,21 @@
 		9121DD6C2486281B00F64768 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9121DD6D2486281B00F64768 /* InsertCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertCoreDataViewController.h; sourceTree = "<group>"; };
 		9121DD6E2486281B00F64768 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		91854A7328F2A16B00BF73AE /* PlusMinusInputEditor copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlusMinusInputEditor copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91854A7428F2A16B00BF73AE /* PlusMinusInputEditor-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PlusMinusInputEditor-Dev-Info.plist"; path = "/Users/zhoufei/Documents/MyFile/ProblemSolution/PlusMinusInputEditor/PlusMinusInputEditor-Dev-Info.plist"; sourceTree = "<absolute>"; };
+		91854A7B28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.PlusMinusInputEditor.debug.xcconfig; sourceTree = "<group>"; };
+		91854A7D28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.PlusMinusInputEditor.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9121DD382486235900F64768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91854A6A28F2A16B00BF73AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,6 +74,7 @@
 			children = (
 				9121DD5D2486281B00F64768 /* PlusMinusInputEditor */,
 				9121DD3C2486235900F64768 /* Products */,
+				91854A7428F2A16B00BF73AE /* PlusMinusInputEditor-Dev-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9121DD3B2486235900F64768 /* PlusMinusInputEditor.app */,
+				91854A7328F2A16B00BF73AE /* PlusMinusInputEditor copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +90,7 @@
 		9121DD5D2486281B00F64768 /* PlusMinusInputEditor */ = {
 			isa = PBXGroup;
 			children = (
+				91854A7828F30E3F00BF73AE /* Config */,
 				9121DD5E2486281B00F64768 /* AppDelegate.h */,
 				9121DD5F2486281B00F64768 /* Assets.xcassets */,
 				9121DD602486281B00F64768 /* InsertCoreDataViewController.m */,
@@ -92,6 +117,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		91854A7828F30E3F00BF73AE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				91854A7B28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig */,
+				91854A7D28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +144,23 @@
 			name = PlusMinusInputEditor;
 			productName = PlusMinusInputEditor;
 			productReference = 9121DD3B2486235900F64768 /* PlusMinusInputEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91854A6328F2A16B00BF73AE /* PlusMinusInputEditor copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91854A7028F2A16B00BF73AE /* Build configuration list for PBXNativeTarget "PlusMinusInputEditor copy" */;
+			buildPhases = (
+				91854A6428F2A16B00BF73AE /* Sources */,
+				91854A6A28F2A16B00BF73AE /* Frameworks */,
+				91854A6B28F2A16B00BF73AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlusMinusInputEditor copy";
+			productName = PlusMinusInputEditor;
+			productReference = 91854A7328F2A16B00BF73AE /* PlusMinusInputEditor copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				9121DD3A2486235900F64768 /* PlusMinusInputEditor */,
+				91854A6328F2A16B00BF73AE /* PlusMinusInputEditor copy */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +205,19 @@
 				9121DD6F2486281B00F64768 /* Assets.xcassets in Resources */,
 				9121DD772486281B00F64768 /* PlusMinusInputView.xib in Resources */,
 				9121DD722486281B00F64768 /* LaunchScreen.storyboard in Resources */,
+				91854A7C28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig in Resources */,
+				91854A7E28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91854A6B28F2A16B00BF73AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91854A6C28F2A16B00BF73AE /* Main.storyboard in Resources */,
+				91854A6D28F2A16B00BF73AE /* Assets.xcassets in Resources */,
+				91854A6E28F2A16B00BF73AE /* PlusMinusInputView.xib in Resources */,
+				91854A6F28F2A16B00BF73AE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +233,18 @@
 				9121DD762486281B00F64768 /* PlusMinusInputView.m in Sources */,
 				9121DD742486281B00F64768 /* main.m in Sources */,
 				9121DD712486281B00F64768 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91854A6428F2A16B00BF73AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91854A6528F2A16B00BF73AE /* AppDelegate.m in Sources */,
+				91854A6628F2A16B00BF73AE /* InsertCoreDataViewController.m in Sources */,
+				91854A6728F2A16B00BF73AE /* PlusMinusInputView.m in Sources */,
+				91854A6828F2A16B00BF73AE /* main.m in Sources */,
+				91854A6928F2A16B00BF73AE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +382,11 @@
 		};
 		9121DD552486235C00F64768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91854A7B28F30F0600BF73AE /* Configs.PlusMinusInputEditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HOST_URL = "http://127.0.0.2";
 				INFOPLIST_FILE = PlusMinusInputEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,9 +400,11 @@
 		};
 		9121DD562486235C00F64768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91854A7D28F30F1C00BF73AE /* Configs.PlusMinusInputEditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				HOST_URL = "http:www.baidu.com";
 				INFOPLIST_FILE = PlusMinusInputEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,6 +416,140 @@
 			};
 			name = Release;
 		};
+		91854A7128F2A16B00BF73AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"Dev=1",
+				);
+				INFOPLIST_FILE = "PlusMinusInputEditor-Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.PlusMinusInputEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91854A7228F2A16B00BF73AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = "Dev=0";
+				INFOPLIST_FILE = "PlusMinusInputEditor-Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.PlusMinusInputEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91854A7528F2C11400BF73AE /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Beta;
+		};
+		91854A7628F2C11400BF73AE /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HOST_URL = "http://127.0.0.1";
+				INFOPLIST_FILE = PlusMinusInputEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.PlusMinusInputEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		91854A7728F2C11400BF73AE /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"Dev=1",
+				);
+				INFOPLIST_FILE = "PlusMinusInputEditor-Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.PlusMinusInputEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -342,6 +557,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9121DD522486235C00F64768 /* Debug */,
+				91854A7528F2C11400BF73AE /* Beta */,
 				9121DD532486235C00F64768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -351,7 +567,18 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9121DD552486235C00F64768 /* Debug */,
+				91854A7628F2C11400BF73AE /* Beta */,
 				9121DD562486235C00F64768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91854A7028F2A16B00BF73AE /* Build configuration list for PBXNativeTarget "PlusMinusInputEditor copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91854A7128F2A16B00BF73AE /* Debug */,
+				91854A7728F2C11400BF73AE /* Beta */,
+				91854A7228F2A16B00BF73AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

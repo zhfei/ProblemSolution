@@ -8,7 +8,8 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, assign) NSObject *obj;
+@property (nonatomic, strong) NSInteger num;
 @end
 
 @implementation AppDelegate

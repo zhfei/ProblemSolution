@@ -1,0 +1,13 @@
+//
+//  Configs.PlusMinusInputEditor.release.xcconfig
+//  PlusMinusInputEditor
+//
+//  Created by zhoufei on 2022/10/9.
+//  Copyright © 2022 zhf. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+HOST_URL = "http://127.0.0.6"

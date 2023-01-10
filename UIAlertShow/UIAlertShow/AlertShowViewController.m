@@ -6,6 +6,7 @@
 //
 
 #import "AlertShowViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface AlertShowViewController ()
 
@@ -16,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    AVAsset *assert = [AVAsset assetWithURL:[NSURL URLWithString:@""]];
+    
+    AVPlayerItem *item = [[AVPlayerItem alloc] initWithAsset:assert];
+    
+    AVPlayer *player = [AVPlayer playerWithPlayerItem:item];
+    
+    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
 }
 
 
