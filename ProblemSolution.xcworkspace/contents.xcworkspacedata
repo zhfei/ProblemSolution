@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Swift-OC/Swift-OC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimpleDemo/SimpleDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PerformanceCheck/PerformanceCheck.xcodeproj">
    </FileRef>
    <FileRef
