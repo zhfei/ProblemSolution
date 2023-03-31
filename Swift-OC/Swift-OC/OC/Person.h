@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+int sum(int a, int b);
+
 @interface Person : NSObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) NSInteger age;
@@ -18,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)say;
 - (void)play;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

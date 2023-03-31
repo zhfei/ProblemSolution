@@ -7,14 +7,21 @@
 
 #import "Person.h"
 
+int sum(int a, int b) {
+    return a+b;
+}
+
 @implementation Person
 - (void)say {
     NSLog(@"Hello,%@-%ld",self.name,self.age);
 }
 
 - (void)play {
-    NSLog(@"Play,%@-%ld",self.myCar.name,self.myCar.speed);
+    NSLog(@"Play,%@-%ld",self.myCar.bigName,self.myCar.speed);
     
-    self.myCar.run();
+//    self.myCar.run();
 }
+
+
+
 @end

@@ -7,6 +7,8 @@
 
 import UIKit
 
+@_silgen_name("sum") func swift_sum(a: Int, b: Int) -> Int
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -22,7 +24,5 @@ class ViewController: UIViewController {
         p.say();
         p.play();
     }
-
-
 }
 
