@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06CF3857C9DBDBCCB6A6C91D /* libPods-AVAssetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */; };
+		6B88741DC9FBA510DD04EA07 /* libPods-ProblemSolution-AVAssetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */; };
 		9100773B2515C9AE00768441 /* AVPlayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */; };
 		9100773C2515C9AE00768441 /* AVPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */; };
 		9100773F25161CE400768441 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9100773E25161CE400768441 /* AVPlayerManager.m */; };
@@ -32,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02D150814B605D26EADE3CAA /* Pods-ProblemSolution-AVAssetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-AVAssetDemo.debug.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		910077382515C9AE00768441 /* AVPlayerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerCollectionViewCell.h; sourceTree = "<group>"; };
 		910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCollectionViewCell.m; sourceTree = "<group>"; };
 		9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -69,7 +70,8 @@
 		91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerWindow.m; sourceTree = "<group>"; };
 		9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.debug.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.release.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.release.xcconfig"; sourceTree = "<group>"; };
-		DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVAssetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProblemSolution-AVAssetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B9948BD3ED0CE62A855BC0 /* Pods-ProblemSolution-AVAssetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-AVAssetDemo.release.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CF3857C9DBDBCCB6A6C91D /* libPods-AVAssetDemo.a in Frameworks */,
+				6B88741DC9FBA510DD04EA07 /* libPods-ProblemSolution-AVAssetDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,8 @@
 			children = (
 				9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */,
 				BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */,
+				02D150814B605D26EADE3CAA /* Pods-ProblemSolution-AVAssetDemo.debug.xcconfig */,
+				E0B9948BD3ED0CE62A855BC0 /* Pods-ProblemSolution-AVAssetDemo.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -188,7 +192,7 @@
 		E6376E751AB2ED1C0BE6962A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DECF2DC14341C2595EF02992 /* libPods-AVAssetDemo.a */,
+				D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,7 +284,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AVAssetDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ProblemSolution-AVAssetDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -444,7 +448,7 @@
 		};
 		917628D72511A76100CD5E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */;
+			baseConfigurationReference = 02D150814B605D26EADE3CAA /* Pods-ProblemSolution-AVAssetDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +467,7 @@
 		};
 		917628D82511A76100CD5E75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */;
+			baseConfigurationReference = E0B9948BD3ED0CE62A855BC0 /* Pods-ProblemSolution-AVAssetDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

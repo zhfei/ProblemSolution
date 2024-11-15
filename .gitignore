@@ -9,6 +9,7 @@ libRTConfClientLibary.a
 libTBConfSDK.a
 pods/
 build/
+*/*.xcodeproj/xcuserdata/
 
 Podfile.lock
 IDEWorkspaceChecks.plist

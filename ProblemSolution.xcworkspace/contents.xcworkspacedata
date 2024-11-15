@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ImageTextHtmlTemplate/ImageTextHtmlTemplate.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Swift-OC/Swift-OC.xcodeproj">
    </FileRef>
    <FileRef
@@ -96,5 +99,8 @@
    </FileRef>
    <FileRef
       location = "group:MessageForwardingWithRunTime/MessageForwardingWithRunTime.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
