@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:UITools/UITools.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ImageTextHtmlTemplate/ImageTextHtmlTemplate.xcodeproj">
    </FileRef>
    <FileRef

@@ -44,11 +44,13 @@ class HtmlLabelViewController: UIViewController {
               <span>这个老师的作品就是仙品 </span>
             </p>
         """
-        if let htmlData = htmlStr.data(using: .unicode) {
-            let attriM = try? NSMutableAttributedString(data: htmlData, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
-            yylabel.attributedText = attriM
+//        if let htmlData = htmlStr.data(using: .unicode) {
+//            let attriM = try? NSMutableAttributedString(data: htmlData, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil)
+//            yylabel.attributedText = attriM
+            
+            yylabel.yy_setHtmlAttributedString(text: htmlStr, font: UIFont.systemFont(ofSize: 20), lineSpacing: 20)
 
-        }
+//        }
         
     }
     
