@@ -10,8 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            FilterViewControllerRepresentable()
-                .edgesIgnoringSafeArea(.all)
+//            FilterViewControllerRepresentable()
+//                .edgesIgnoringSafeArea(.all)
+            
+            SelectBarRepresentable()
+                .frame(width: 200, height: 44)
         }
         .padding()
     }
@@ -25,6 +28,21 @@ struct FilterViewControllerRepresentable: UIViewControllerRepresentable {
     
     func updateUIViewController(_ uiViewController: FilterViewController, context: Context) {
         // 在这里更新 UIViewController（如果需要）
+    }
+}
+
+
+
+//View的转换
+struct SelectBarRepresentable: UIViewRepresentable {
+    func makeUIView(context: Context) -> SelectBar {
+        let bar = SelectBar.selectBar()
+        bar.selectIndex = 0
+        return bar
+    }
+    
+    func updateUIView(_ uiView: SelectBar, context: Context) {
+        uiView.configRedNum(leftNum: 10, rightNum: 200)
     }
 }
 
