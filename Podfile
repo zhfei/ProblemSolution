@@ -12,18 +12,17 @@ abstract_target 'ProblemSolution' do
    pod 'YYText-swift'
    pod 'SnapKit', '4.0.1'
  
-
-
+ 
+ 
+#1.默认继承了abstract_target抽象集
 target "AVAssetDemo" do
-project 'AVAssetDemo/AVAssetDemo.xcodeproj'    
-
+project 'AVAssetDemo/AVAssetDemo.xcodeproj'
 end
 
-
-
+#2.默认继承
 target "ImageTextHtmlTemplate" do
-project 'ImageTextHtmlTemplate/ImageTextHtmlTemplate.xcodeproj'    
-
+project 'ImageTextHtmlTemplate/ImageTextHtmlTemplate.xcodeproj'
 end
+
 
 end

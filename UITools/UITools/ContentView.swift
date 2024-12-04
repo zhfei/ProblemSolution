@@ -13,8 +13,11 @@ struct ContentView: View {
 //            FilterViewControllerRepresentable()
 //                .edgesIgnoringSafeArea(.all)
             
-            SelectBarRepresentable()
-                .frame(width: 200, height: 44)
+//            SelectBarRepresentable()
+//                .frame(width: 200, height: 44)
+            
+            RichTextViewControllerRepresentable()
+                .edgesIgnoringSafeArea(.all)
         }
         .padding()
     }
@@ -30,6 +33,17 @@ struct FilterViewControllerRepresentable: UIViewControllerRepresentable {
         // 在这里更新 UIViewController（如果需要）
     }
 }
+
+struct RichTextViewControllerRepresentable: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> RichTextViewController {
+        return RichTextViewController.richTextViewController()
+    }
+    
+    func updateUIViewController(_ uiViewController: RichTextViewController, context: Context) {
+        // 在这里更新 UIViewController（如果需要）
+    }
+}
+
 
 
 
