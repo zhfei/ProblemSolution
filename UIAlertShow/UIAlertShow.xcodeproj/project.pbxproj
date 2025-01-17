@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8426CC262D39F8160085C2BB /* OC2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426CC252D39F8160085C2BB /* OC2Swift.swift */; };
+		844F825B2D15232500A2AD0C /* Window1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844F82592D15232500A2AD0C /* Window1ViewController.xib */; };
+		844F825F2D15233D00A2AD0C /* Window2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844F825D2D15233D00A2AD0C /* Window2ViewController.xib */; };
+		844F82622D153CE800A2AD0C /* Window2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F82612D153CE800A2AD0C /* Window2ViewController.m */; };
+		844F82652D153CFE00A2AD0C /* Window1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F82642D153CFE00A2AD0C /* Window1ViewController.m */; };
 		911126542669203B003A971E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911126532669203B003A971E /* AppDelegate.m */; };
 		911126572669203B003A971E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911126562669203B003A971E /* SceneDelegate.m */; };
 		9111265A2669203B003A971E /* AlertShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911126592669203B003A971E /* AlertShowViewController.m */; };
@@ -17,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8426CC252D39F8160085C2BB /* OC2Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OC2Swift.swift; sourceTree = "<group>"; };
+		844F82572D15232400A2AD0C /* UIAlertShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertShow-Bridging-Header.h"; sourceTree = "<group>"; };
+		844F82592D15232500A2AD0C /* Window1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window1ViewController.xib; sourceTree = "<group>"; };
+		844F825D2D15233D00A2AD0C /* Window2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window2ViewController.xib; sourceTree = "<group>"; };
+		844F82602D153CE800A2AD0C /* Window2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window2ViewController.h; sourceTree = "<group>"; };
+		844F82612D153CE800A2AD0C /* Window2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window2ViewController.m; sourceTree = "<group>"; };
+		844F82632D153CFE00A2AD0C /* Window1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window1ViewController.h; sourceTree = "<group>"; };
+		844F82642D153CFE00A2AD0C /* Window1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window1ViewController.m; sourceTree = "<group>"; };
 		9111264F2669203B003A971E /* UIAlertShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911126522669203B003A971E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		911126532669203B003A971E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +55,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844F82542D1522C400A2AD0C /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				844F82562D1522D600A2AD0C /* window2 */,
+				844F82552D1522CF00A2AD0C /* window1 */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		844F82552D1522CF00A2AD0C /* window1 */ = {
+			isa = PBXGroup;
+			children = (
+				844F82592D15232500A2AD0C /* Window1ViewController.xib */,
+				844F82632D153CFE00A2AD0C /* Window1ViewController.h */,
+				844F82642D153CFE00A2AD0C /* Window1ViewController.m */,
+			);
+			path = window1;
+			sourceTree = "<group>";
+		};
+		844F82562D1522D600A2AD0C /* window2 */ = {
+			isa = PBXGroup;
+			children = (
+				844F825D2D15233D00A2AD0C /* Window2ViewController.xib */,
+				844F82602D153CE800A2AD0C /* Window2ViewController.h */,
+				844F82612D153CE800A2AD0C /* Window2ViewController.m */,
+			);
+			path = window2;
+			sourceTree = "<group>";
+		};
 		911126462669203B003A971E = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +103,15 @@
 		911126512669203B003A971E /* UIAlertShow */ = {
 			isa = PBXGroup;
 			children = (
+				844F82542D1522C400A2AD0C /* windows */,
 				911126522669203B003A971E /* AppDelegate.h */,
 				911126532669203B003A971E /* AppDelegate.m */,
 				911126552669203B003A971E /* SceneDelegate.h */,
 				911126562669203B003A971E /* SceneDelegate.m */,
 				911126582669203B003A971E /* AlertShowViewController.h */,
 				911126592669203B003A971E /* AlertShowViewController.m */,
+				844F82572D15232400A2AD0C /* UIAlertShow-Bridging-Header.h */,
+				8426CC252D39F8160085C2BB /* OC2Swift.swift */,
 				9111265B2669203B003A971E /* Main.storyboard */,
 				9111265E2669203D003A971E /* Assets.xcassets */,
 				911126602669203D003A971E /* LaunchScreen.storyboard */,
@@ -106,6 +151,7 @@
 				TargetAttributes = {
 					9111264E2669203B003A971E = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -133,7 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				911126622669203D003A971E /* LaunchScreen.storyboard in Resources */,
+				844F825F2D15233D00A2AD0C /* Window2ViewController.xib in Resources */,
 				9111265F2669203D003A971E /* Assets.xcassets in Resources */,
+				844F825B2D15232500A2AD0C /* Window1ViewController.xib in Resources */,
 				9111265D2669203B003A971E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +193,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844F82652D153CFE00A2AD0C /* Window1ViewController.m in Sources */,
+				8426CC262D39F8160085C2BB /* OC2Swift.swift in Sources */,
 				9111265A2669203B003A971E /* AlertShowViewController.m in Sources */,
+				844F82622D153CE800A2AD0C /* Window2ViewController.m in Sources */,
 				911126542669203B003A971E /* AppDelegate.m in Sources */,
 				911126652669203D003A971E /* main.m in Sources */,
 				911126572669203B003A971E /* SceneDelegate.m in Sources */,
@@ -291,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3KT864KL;
 				INFOPLIST_FILE = UIAlertShow/Info.plist;
@@ -300,6 +352,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhf.UIAlertShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIAlertShow/UIAlertShow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3KT864KL;
 				INFOPLIST_FILE = UIAlertShow/Info.plist;
@@ -318,6 +374,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhf.UIAlertShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIAlertShow/UIAlertShow-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

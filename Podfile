@@ -1,5 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+ENV['SWIFT_VERSION'] = '5'
+use_frameworks!
+
 platform :ios, "13.0"
 
 workspace 'ProblemSolution.xcworkspace'
@@ -7,10 +10,11 @@ workspace 'ProblemSolution.xcworkspace'
 abstract_target 'ProblemSolution' do
    pod 'SDWebImage', '4.4.7'
    pod 'Masonry', '1.1.0'
-   pod 'YYKit', '1.0.9'
+#   pod 'YYKit', '1.0.9'
 #   pod 'YYText', :modular_headers => true
    pod 'YYText-swift'
    pod 'SnapKit', '4.0.1'
+   pod 'YogaKit'
  
  
  
@@ -22,6 +26,10 @@ end
 #2.默认继承
 target "ImageTextHtmlTemplate" do
 project 'ImageTextHtmlTemplate/ImageTextHtmlTemplate.xcodeproj'
+end
+
+target "UITools" do
+project 'UITools/UITools.xcodeproj'
 end
 
 

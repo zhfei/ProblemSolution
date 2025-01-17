@@ -6,6 +6,9 @@
 //
 
 #import "SceneDelegate.h"
+#import "Window1ViewController.h"
+#import "Window2ViewController.h"
+#import "AlertShowViewController.h"
 
 @interface SceneDelegate ()
 
@@ -18,6 +21,17 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    [self alertWindow];
+    [self topWindow];
+    
+    self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AlertShowViewController *myVC = [storyboard instantiateViewControllerWithIdentifier:@"AlertShowViewController"];
+    
+    self.window.rootViewController = myVC;
+    [self.window makeKeyAndVisible];
+    
+
 }
 
 
@@ -53,5 +67,59 @@
     // to restore the scene back to its current state.
 }
 
+
+- (UIWindow *)alertWindow {
+    if (!_alertWindow) {
+        _alertWindow = [[UIWindow alloc] initWithWindowScene:self.window.windowScene];
+        _alertWindow.frame = [UIScreen mainScreen].bounds;
+        _alertWindow.windowLevel = UIWindowLevelAlert+1;
+        _alertWindow.autoresizingMask = UIViewAutoresizingNone;
+        _alertWindow.backgroundColor = [UIColor clearColor];
+
+//        UIView *bgView = [[UIView alloc] initWithFrame:_alertWindow.bounds];
+//        [_alertWindow addSubview:bgView];
+//        bgView.backgroundColor = [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.6f];
+//        [bgView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(coverTap:)]];
+        
+        Window1ViewController *w1v = [[Window1ViewController alloc] initWithNibName:@"Window1ViewController" bundle:nil];
+        _alertWindow.rootViewController = w1v;
+        [_alertWindow makeKeyAndVisible];
+        _alertWindow.hidden = YES;
+    }
+    return _alertWindow;
+}
+
+- (UIWindow *)topWindow {
+    if (!_topWindow) {
+        _topWindow = [[UIWindow alloc] initWithWindowScene:self.window.windowScene];
+        _topWindow.frame = [UIScreen mainScreen].bounds;
+        _topWindow.windowLevel = UIWindowLevelAlert+2;
+        _topWindow.autoresizingMask = UIViewAutoresizingNone;
+        _topWindow.backgroundColor = [UIColor clearColor];
+
+//        UIView *bgView = [[UIView alloc] initWithFrame:_topWindow.bounds];
+//        [_topWindow addSubview:bgView];
+//        bgView.backgroundColor = [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.6f];
+//        [bgView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(coverTap:)]];
+        
+        Window2ViewController *w2v = [[Window2ViewController alloc] initWithNibName:@"Window2ViewController" bundle:nil];
+        _topWindow.rootViewController = w2v;
+        [_topWindow makeKeyAndVisible];
+        _topWindow.hidden = YES;
+    }
+    return _topWindow;
+}
+
+- (UIWindow *)currentActivityWindow {
+    UIWindow *currentWindow = nil;
+    for (UIWindowScene *scene in [UIApplication sharedApplication].connectedScenes) {
+        if (scene.activationState == UISceneActivationStateForegroundActive) {
+            // 只获取前台活动的窗口场景
+            currentWindow = scene.windows.firstObject;
+            break; // 找到第一个活动窗口后停止循环
+        }
+    }
+    return currentWindow;
+}
 
 @end

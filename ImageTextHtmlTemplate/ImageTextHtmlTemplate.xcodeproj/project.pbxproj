@@ -14,7 +14,7 @@
 		84E0245A2CE6F2B600B2B2DE /* HtmlLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E024582CE6F2B600B2B2DE /* HtmlLabelViewController.swift */; };
 		84E0245B2CE6F2B600B2B2DE /* HtmlLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E024592CE6F2B600B2B2DE /* HtmlLabelViewController.xib */; };
 		84E0245D2CE6F35300B2B2DE /* HtmlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0245C2CE6F35300B2B2DE /* HtmlLabel.swift */; };
-		DD9B63D15A43CF47DB8077EE /* libPods-ProblemSolution-ImageTextHtmlTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5399BC1422435A63EBED8F /* libPods-ProblemSolution-ImageTextHtmlTemplate.a */; };
+		BEF9FA512117051801F290FF /* Pods_ProblemSolution_ImageTextHtmlTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86941CFE33FD7D57EF02DA46 /* Pods_ProblemSolution_ImageTextHtmlTemplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		84E024592CE6F2B600B2B2DE /* HtmlLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HtmlLabelViewController.xib; sourceTree = "<group>"; };
 		84E0245C2CE6F35300B2B2DE /* HtmlLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlLabel.swift; sourceTree = "<group>"; };
 		863D02F6031302447CE3BB3B /* Pods-ProblemSolution-ImageTextHtmlTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-ImageTextHtmlTemplate.release.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-ImageTextHtmlTemplate/Pods-ProblemSolution-ImageTextHtmlTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		EF5399BC1422435A63EBED8F /* libPods-ProblemSolution-ImageTextHtmlTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProblemSolution-ImageTextHtmlTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86941CFE33FD7D57EF02DA46 /* Pods_ProblemSolution_ImageTextHtmlTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProblemSolution_ImageTextHtmlTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD9B63D15A43CF47DB8077EE /* libPods-ProblemSolution-ImageTextHtmlTemplate.a in Frameworks */,
+				BEF9FA512117051801F290FF /* Pods_ProblemSolution_ImageTextHtmlTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,7 @@
 		45D6B00213B3944E18117D87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF5399BC1422435A63EBED8F /* libPods-ProblemSolution-ImageTextHtmlTemplate.a */,
+				86941CFE33FD7D57EF02DA46 /* Pods_ProblemSolution_ImageTextHtmlTemplate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +130,7 @@
 				84E024402CE6F22300B2B2DE /* Sources */,
 				84E024412CE6F22300B2B2DE /* Frameworks */,
 				84E024422CE6F22300B2B2DE /* Resources */,
+				2C0E1010D6607595723964E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +188,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C0E1010D6607595723964E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-ImageTextHtmlTemplate/Pods-ProblemSolution-ImageTextHtmlTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-ImageTextHtmlTemplate/Pods-ProblemSolution-ImageTextHtmlTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-ImageTextHtmlTemplate/Pods-ProblemSolution-ImageTextHtmlTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		69EA28DBC45C7156371950F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

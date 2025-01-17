@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		847A9B352CEF7EA9001FB1DC /* SelectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A9B342CEF7EA9001FB1DC /* SelectBar.swift */; };
 		847A9B372CEF7EB4001FB1DC /* SelectBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847A9B362CEF7EB4001FB1DC /* SelectBar.xib */; };
+		847DF6352D00679B00D37C26 /* GesTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847DF6342D00679B00D37C26 /* GesTestView.xib */; };
+		847DF6372D0067A800D37C26 /* GesTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DF6362D0067A800D37C26 /* GesTestView.swift */; };
 		84B6551A2CEF106500522EB0 /* UIToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B655192CEF106500522EB0 /* UIToolsApp.swift */; };
 		84B6551C2CEF106500522EB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6551B2CEF106500522EB0 /* ContentView.swift */; };
 		84B6551E2CEF106600522EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6551D2CEF106600522EB0 /* Assets.xcassets */; };
@@ -20,11 +22,14 @@
 		84E382B72CF739F200E0CFAD /* RichTextTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E382B62CF739F200E0CFAD /* RichTextTool.swift */; };
 		84E382BA2CF73A5800E0CFAD /* RichTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E382B82CF73A5800E0CFAD /* RichTextViewController.swift */; };
 		84E382BB2CF73A5800E0CFAD /* RichTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E382B92CF73A5800E0CFAD /* RichTextViewController.xib */; };
+		95753A38242B2EC3946D532C /* Pods_ProblemSolution_UITools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9312F7BCE3CABE0F41EDE448 /* Pods_ProblemSolution_UITools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		847A9B342CEF7EA9001FB1DC /* SelectBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBar.swift; sourceTree = "<group>"; };
 		847A9B362CEF7EB4001FB1DC /* SelectBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectBar.xib; sourceTree = "<group>"; };
+		847DF6342D00679B00D37C26 /* GesTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GesTestView.xib; sourceTree = "<group>"; };
+		847DF6362D0067A800D37C26 /* GesTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesTestView.swift; sourceTree = "<group>"; };
 		84B655162CEF106500522EB0 /* UITools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B655192CEF106500522EB0 /* UIToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIToolsApp.swift; sourceTree = "<group>"; };
 		84B6551B2CEF106500522EB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		84E382B62CF739F200E0CFAD /* RichTextTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextTool.swift; sourceTree = "<group>"; };
 		84E382B82CF73A5800E0CFAD /* RichTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextViewController.swift; sourceTree = "<group>"; };
 		84E382B92CF73A5800E0CFAD /* RichTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RichTextViewController.xib; sourceTree = "<group>"; };
+		9312F7BCE3CABE0F41EDE448 /* Pods_ProblemSolution_UITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProblemSolution_UITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A692432C5E607F0BDD76CC3A /* Pods-ProblemSolution-UITools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-UITools.debug.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-UITools/Pods-ProblemSolution-UITools.debug.xcconfig"; sourceTree = "<group>"; };
+		D050B4A4409165925D799D6D /* Pods-ProblemSolution-UITools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-UITools.release.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-UITools/Pods-ProblemSolution-UITools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95753A38242B2EC3946D532C /* Pods_ProblemSolution_UITools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +69,22 @@
 			path = SelectBar;
 			sourceTree = "<group>";
 		};
+		847DF6332D00677E00D37C26 /* ges */ = {
+			isa = PBXGroup;
+			children = (
+				847DF6342D00679B00D37C26 /* GesTestView.xib */,
+				847DF6362D0067A800D37C26 /* GesTestView.swift */,
+			);
+			path = ges;
+			sourceTree = "<group>";
+		};
 		84B6550D2CEF106500522EB0 = {
 			isa = PBXGroup;
 			children = (
 				84B655182CEF106500522EB0 /* UITools */,
 				84B655172CEF106500522EB0 /* Products */,
+				9B68DBB1766247ADC64949FD /* Pods */,
+				FEE3E6A515C22CABAEC4BAF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,11 +133,30 @@
 		84E382B52CF739CC00E0CFAD /* RichText */ = {
 			isa = PBXGroup;
 			children = (
+				847DF6332D00677E00D37C26 /* ges */,
 				84E382B62CF739F200E0CFAD /* RichTextTool.swift */,
 				84E382B82CF73A5800E0CFAD /* RichTextViewController.swift */,
 				84E382B92CF73A5800E0CFAD /* RichTextViewController.xib */,
 			);
 			path = RichText;
+			sourceTree = "<group>";
+		};
+		9B68DBB1766247ADC64949FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A692432C5E607F0BDD76CC3A /* Pods-ProblemSolution-UITools.debug.xcconfig */,
+				D050B4A4409165925D799D6D /* Pods-ProblemSolution-UITools.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		FEE3E6A515C22CABAEC4BAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9312F7BCE3CABE0F41EDE448 /* Pods_ProblemSolution_UITools.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B655252CEF106600522EB0 /* Build configuration list for PBXNativeTarget "UITools" */;
 			buildPhases = (
+				3448E69F074B1D3D53B69491 /* [CP] Check Pods Manifest.lock */,
 				84B655122CEF106500522EB0 /* Sources */,
 				84B655132CEF106500522EB0 /* Frameworks */,
 				84B655142CEF106500522EB0 /* Resources */,
+				720BC120315A62CF4CA52333 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,10 +225,53 @@
 				84E382BB2CF73A5800E0CFAD /* RichTextViewController.xib in Resources */,
 				84B6552C2CEF10A500522EB0 /* FilterViewController.xib in Resources */,
 				84B6551E2CEF106600522EB0 /* Assets.xcassets in Resources */,
+				847DF6352D00679B00D37C26 /* GesTestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3448E69F074B1D3D53B69491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProblemSolution-UITools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720BC120315A62CF4CA52333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-UITools/Pods-ProblemSolution-UITools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-UITools/Pods-ProblemSolution-UITools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-UITools/Pods-ProblemSolution-UITools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B655122CEF106500522EB0 /* Sources */ = {
@@ -200,6 +284,7 @@
 				84B6551C2CEF106500522EB0 /* ContentView.swift in Sources */,
 				847A9B352CEF7EA9001FB1DC /* SelectBar.swift in Sources */,
 				84E382B72CF739F200E0CFAD /* RichTextTool.swift in Sources */,
+				847DF6372D0067A800D37C26 /* GesTestView.swift in Sources */,
 				84B6551A2CEF106500522EB0 /* UIToolsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +408,7 @@
 		};
 		84B655262CEF106600522EB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A692432C5E607F0BDD76CC3A /* Pods-ProblemSolution-UITools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +447,7 @@
 		};
 		84B655272CEF106600522EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D050B4A4409165925D799D6D /* Pods-ProblemSolution-UITools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

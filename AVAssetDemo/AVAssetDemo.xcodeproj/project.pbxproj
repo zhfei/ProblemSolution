@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B88741DC9FBA510DD04EA07 /* libPods-ProblemSolution-AVAssetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */; };
 		9100773B2515C9AE00768441 /* AVPlayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */; };
 		9100773C2515C9AE00768441 /* AVPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */; };
 		9100773F25161CE400768441 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9100773E25161CE400768441 /* AVPlayerManager.m */; };
@@ -29,10 +28,12 @@
 		917628E02511F57800CD5E75 /* AVPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628DF2511F57800CD5E75 /* AVPlayerController.m */; };
 		917628EE2513215600CD5E75 /* AVPlayerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917628EC2513215600CD5E75 /* AVPlayerCollectionViewController.m */; };
 		91AB49AB2513A41A00FF58EB /* AVPlayerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */; };
+		A428BD3368F4090279A9D5C9 /* Pods_ProblemSolution_AVAssetDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6803AFE3166A707CF72CBA4D /* Pods_ProblemSolution_AVAssetDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02D150814B605D26EADE3CAA /* Pods-ProblemSolution-AVAssetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-AVAssetDemo.debug.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6803AFE3166A707CF72CBA4D /* Pods_ProblemSolution_AVAssetDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProblemSolution_AVAssetDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		910077382515C9AE00768441 /* AVPlayerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerCollectionViewCell.h; sourceTree = "<group>"; };
 		910077392515C9AE00768441 /* AVPlayerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerCollectionViewCell.m; sourceTree = "<group>"; };
 		9100773A2515C9AE00768441 /* AVPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		91AB49AA2513A41A00FF58EB /* AVPlayerWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerWindow.m; sourceTree = "<group>"; };
 		9DA582D2E972188ABA9BBF6B /* Pods-AVAssetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.debug.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BC324547ED379C028D4E931A /* Pods-AVAssetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAssetDemo.release.xcconfig"; path = "Target Support Files/Pods-AVAssetDemo/Pods-AVAssetDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProblemSolution-AVAssetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B9948BD3ED0CE62A855BC0 /* Pods-ProblemSolution-AVAssetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProblemSolution-AVAssetDemo.release.xcconfig"; path = "Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B88741DC9FBA510DD04EA07 /* libPods-ProblemSolution-AVAssetDemo.a in Frameworks */,
+				A428BD3368F4090279A9D5C9 /* Pods_ProblemSolution_AVAssetDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +192,7 @@
 		E6376E751AB2ED1C0BE6962A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6ECFC25CA4B64816BB515AC /* libPods-ProblemSolution-AVAssetDemo.a */,
+				6803AFE3166A707CF72CBA4D /* Pods_ProblemSolution_AVAssetDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,6 +208,7 @@
 				917628B92511A76000CD5E75 /* Sources */,
 				917628BA2511A76000CD5E75 /* Frameworks */,
 				917628BB2511A76000CD5E75 /* Resources */,
+				AC3B8D7191DF7246E87DA3C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +270,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		AC3B8D7191DF7246E87DA3C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProblemSolution-AVAssetDemo/Pods-ProblemSolution-AVAssetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DDFA7778D0B6F104B35E73C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

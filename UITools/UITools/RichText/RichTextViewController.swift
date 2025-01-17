@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class RichTextViewController: UIViewController {
     
@@ -20,6 +21,14 @@ class RichTextViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         titleLabel.attributedText = RichTextTool.createAttributedStringOnImage(with: "Hello World")
+        
+        let ges = GesTestView.gesTestView()
+        self.view.addSubview(ges)
+        ges.snp.makeConstraints { make in
+            make.size.equalTo(CGSize(width: 100, height: 50))
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview().offset(60)
+        }
     }
 
 

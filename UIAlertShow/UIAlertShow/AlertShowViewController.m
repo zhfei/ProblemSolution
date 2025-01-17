@@ -7,8 +7,12 @@
 
 #import "AlertShowViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "SceneDelegate.h"
 
 @interface AlertShowViewController ()
+
+@property (strong, nonatomic) UIWindow * currentActivityWindow;
+@property (weak, nonatomic) IBOutlet UIView *flexContainer;
 
 @end
 
@@ -37,6 +41,20 @@
         }
             break;
         case 1:
+        {
+            [self sheet];
+        }
+            break;
+        case 2:
+        {
+            
+            SceneDelegate *sceneDelegate = (SceneDelegate *)UIApplication.sharedApplication.connectedScenes.anyObject.delegate;
+            [sceneDelegate.topWindow makeKeyAndVisible];
+            sceneDelegate.window.hidden = YES;
+            sceneDelegate.window.rootViewController = nil;
+        }
+            break;
+        case 3:
         {
             [self sheet];
         }
@@ -103,5 +121,18 @@
 
 
 
+
+
+- (UIWindowScene *)currentActivityScene {
+    UIWindowScene *currentScene = nil;
+    for (UIWindowScene *scene in [UIApplication sharedApplication].connectedScenes) {
+        if (scene.activationState == UISceneActivationStateForegroundActive) {
+            // 只获取前台活动的窗口场景
+            currentScene = scene;
+            break; // 找到第一个活动窗口后停止循环
+        }
+    }
+    return currentScene;
+}
 
 @end
